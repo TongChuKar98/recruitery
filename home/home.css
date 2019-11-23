@@ -17,8 +17,30 @@ html {
   font-size: 20px;
   font-weight: bold;
   line-height: 22px;
+  color: #333333;
+}
+.ss-banner-kc div img {
+  width: 32px;
+  height: 32px;
 }
 .ss-banner-kc p {
   padding: 32px;
+  padding-top: 30px;
   font-size: 14px;
+}
+.ss-search {
+  background: #E7EEEF;
+}
+.ss-search-ks input:focus {
+  outline: none;
+  border: none;
+}
+.ss-search .list-content {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.ss-search .list-content li {
+  width: 30%;
+  white-space: nowrap;
 }

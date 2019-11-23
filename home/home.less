@@ -19,21 +19,44 @@ body, html{
         background: #FFFFFF;
         margin: 116px 46px 89px 36px;
           div{
+            img{
+              width: 32px;
+              height: 32px;
+            }
             padding: 39px 32px 5px 32px;
             font-size: 20px;
             font-weight: bold;
             line-height: 22px;
+            color: #333333;
             img{
 
             } 
           }
           p{
             padding: 32px;
+            padding-top: 30px;
             font-size: 14px;
           }
       }
   }
   &-search {
+    background: #E7EEEF;
+    &-ks{
+      
+      input:focus{
+        outline: none;
+        border: none;
+      }
+    }
+    .list-content{
+      list-style-type: none;
+      display: flex;
+      flex-wrap: wrap;
+      li{
+        width: 30%;
+        white-space: nowrap;
+      }
+    }
   }
   &-platform {
   }
