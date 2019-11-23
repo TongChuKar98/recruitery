@@ -1,0 +1,24 @@
+body,
+html {
+  overflow-x: hidden;
+}
+.ss-banner {
+  background-image: url(/assets/img/banner-job-ads-1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 88% ;
+}
+.ss-banner-kc {
+  background: #FFFFFF;
+  margin: 116px 46px 89px 36px;
+}
+.ss-banner-kc div {
+  padding: 39px 32px 5px 32px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 22px;
+}
+.ss-banner-kc p {
+  padding: 32px;
+  font-size: 14px;
+}
