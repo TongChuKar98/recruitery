@@ -2,6 +2,9 @@ body,
 html {
   overflow-x: hidden;
 }
+* {
+  box-sizing: border-box;
+}
 .ss-banner {
   background-image: url(/assets/img/banner-job-ads-1.png);
   background-size: cover;
@@ -18,6 +21,7 @@ html {
   font-weight: bold;
   line-height: 22px;
   color: #333333;
+  font-family: 'Muli', sans-serif;
 }
 .ss-banner-kc div img {
   width: 32px;
@@ -27,20 +31,65 @@ html {
   padding: 32px;
   padding-top: 30px;
   font-size: 14px;
+  font-family: 'Muli', sans-serif;
 }
 .ss-search {
   background: #E7EEEF;
 }
-.ss-search-ks input:focus {
-  outline: none;
-  border: none;
+.ss-search-ks {
+  margin: 80px 36px 26px 36px;
 }
 .ss-search .list-content {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
+  justify-items: flex-start;
+  margin-top: 24px;
 }
 .ss-search .list-content li {
   width: 30%;
+}
+.ss-search .list-content li a {
+  color: #333333;
+  font-size: 16px;
+  padding-left: 6px;
+  font-family: 'Muli', sans-serif;
+}
+.ss-platform {
+  margin: 100px 36px 32px 36px;
+}
+.ss-platform img {
+  width: 100%;
+}
+.ss-platform .col-md-7 h1 {
+  font-size: 42px;
+  margin-top: 32px;
+  margin-left: 15px;
+  margin-right: 40px;
+  color: #333333;
+}
+.ss-platform .col-md-7 .btn-refer {
+  margin-top: 32px;
+}
+.ss-platform .col-md-7 .btn-refer a {
+  padding: 10px 20px 10px 32px;
+  border-radius: 4px 4px 4px 4px;
+  background-color: #1AA94C;
+  color: #FFFFFF;
+}
+.ss-refer .refer-title {
+  color: #333333;
+  font-size: 28px;
+  margin: 100px 102px 32px 36px;
   white-space: nowrap;
+}
+.ss-refer #card {
+  border-radius: 4px;
+  border: 1px solid #E8E8E8;
+  margin: 32px 36px 20px 36px;
+}
+.ss-refer #card h1 {
+  font-size: 16px;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
 }
